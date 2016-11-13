@@ -1,0 +1,105 @@
+         2138 function calls in 3.242 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    3.242    3.242 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 <string>:8(__new__)
+       16    0.001    0.000    0.002    0.000 array.py:101(bytes_to_rgb)
+       15    0.001    0.000    0.005    0.000 array.py:146(truncate)
+       16    0.000    0.000    0.011    0.001 array.py:222(flush)
+       16    0.000    0.000    0.000    0.000 array.py:61(raw_resolution)
+       16    0.001    0.000    2.142    0.134 camera.py:1505(capture_continuous)
+        3    0.000    0.000    0.000    0.000 camera.py:1677(closed)
+        1    0.000    0.000    0.000    0.000 camera.py:2208(_get_resolution)
+       16    0.001    0.000    0.004    0.000 camera.py:498(_start_capture)
+       16    0.001    0.000    0.006    0.000 camera.py:506(_stop_capture)
+        2    0.000    0.000    0.000    0.000 camera.py:514(_check_camera_open)
+        1    0.000    0.000    0.000    0.000 camera.py:532(_get_ports)
+        1    0.000    0.000    0.000    0.000 camera.py:582(_get_image_format)
+        1    0.000    0.000    0.001    0.001 camera.py:625(_get_image_encoder)
+        1    0.000    0.000    0.001    0.001 encoders.py:1046(__init__)
+       16    0.001    0.000    0.057    0.004 encoders.py:1062(start)
+        1    0.000    0.000    0.000    0.000 encoders.py:177(__init__)
+       16    0.000    0.000    0.001    0.000 encoders.py:318(_open_output)
+       16    0.000    0.000    0.011    0.001 encoders.py:349(_close_output)
+       48    0.000    0.000    0.001    0.000 encoders.py:371(active)
+       16    0.001    0.000    0.056    0.004 encoders.py:378(start)
+       16    0.000    0.000    2.082    0.130 encoders.py:397(wait)
+       16    0.001    0.000    0.024    0.002 encoders.py:416(stop)
+        1    0.000    0.000    0.001    0.001 encoders.py:443(close)
+        1    0.000    0.000    0.001    0.001 encoders.py:488(__init__)
+        1    0.000    0.000    0.000    0.000 encoders.py:556(_create_encoder)
+       82    0.000    0.000    0.000    0.000 exc.py:146(mmal_check)
+       16    0.000    0.000    0.000    0.000 mmal.py:154(__eq__)
+        2    0.000    0.000    0.000    0.000 mmal.py:55(VCOS_ALIGN_UP)
+       32    0.000    0.000    0.000    0.000 mmalobj.py:1007(<lambda>)
+       16    0.000    0.000    0.000    0.000 mmalobj.py:1031(__init__)
+       16    0.000    0.000    0.000    0.000 mmalobj.py:1170(__init__)
+       16    0.000    0.000    0.001    0.000 mmalobj.py:1179(get_buffer)
+       16    0.002    0.000    0.002    0.000 mmalobj.py:1208(__init__)
+       16    0.001    0.000    0.001    0.000 mmalobj.py:1217(close)
+       16    0.001    0.000    0.002    0.000 mmalobj.py:1234(send_all_buffers)
+       34    0.000    0.000    0.000    0.000 mmalobj.py:513(outputs)
+       80    0.001    0.000    0.001    0.000 mmalobj.py:574(enabled)
+       16    0.003    0.000    0.003    0.000 mmalobj.py:608(disable)
+       16    0.001    0.000    0.001    0.000 mmalobj.py:618(send_buffer)
+       51    0.000    0.000    0.000    0.000 mmalobj.py:634(name)
+       32    0.000    0.000    0.000    0.000 mmalobj.py:638(params)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:694(_set_format)
+        2    0.001    0.000    0.001    0.000 mmalobj.py:744(commit)
+       16    0.044    0.003    0.050    0.003 mmalobj.py:777(enable)
+       16    0.000    0.000    0.005    0.000 mmalobj.py:829(disable)
+       32    0.008    0.000    0.008    0.000 mmalobj.py:994(__setitem__)
+       15    0.001    0.000    1.007    0.067 test_face_features.py:21(extract_features)
+        1    0.003    0.003    3.242    3.242 test_face_features.py:39(mainfunc)
+        1    0.000    0.000    0.000    0.000 threading.py:242(Condition)
+        1    0.000    0.000    0.000    0.000 threading.py:260(__init__)
+       16    0.000    0.000    0.000    0.000 threading.py:294(_release_save)
+       16    0.000    0.000    0.000    0.000 threading.py:297(_acquire_restore)
+       32    0.000    0.000    0.000    0.000 threading.py:300(_is_owned)
+       16    0.003    0.000    2.058    0.129 threading.py:309(wait)
+       16    0.000    0.000    0.000    0.000 threading.py:373(notify)
+       16    0.000    0.000    0.000    0.000 threading.py:400(notifyAll)
+        1    0.000    0.000    0.000    0.000 threading.py:542(Event)
+        1    0.000    0.000    0.000    0.000 threading.py:561(__init__)
+       16    0.000    0.000    0.001    0.000 threading.py:576(set)
+        2    0.000    0.000    0.000    0.000 threading.py:59(__init__)
+       16    0.000    0.000    0.000    0.000 threading.py:590(clear)
+       16    0.000    0.000    2.059    0.129 threading.py:603(wait)
+       31    0.000    0.000    0.000    0.000 threading.py:64(_note)
+        1    0.000    0.000    0.000    0.000 utf_8.py:15(decode)
+        1    0.000    0.000    0.000    0.000 {_codecs.utf_8_decode}
+       15    0.001    0.000    0.001    0.000 {_warnings.warn}
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x2d4c48}
+       15    0.017    0.001    0.017    0.001 {cvtColor}
+       16    0.000    0.000    0.000    0.000 {function flush at 0x757fcaf0}
+       15    0.003    0.000    0.003    0.000 {function truncate at 0x757fcab0}
+       15    0.065    0.004    0.065    0.004 {imshow}
+       35    0.000    0.000    0.000    0.000 {isinstance}
+       64    0.000    0.000    0.000    0.000 {len}
+        2    0.000    0.000    0.000    0.000 {max}
+      244    0.001    0.000    0.001    0.000 {method 'acquire' of 'thread.lock' objects}
+       16    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'decode' of 'str' objects}
+       15    0.924    0.062    0.924    0.062 {method 'detectMultiScale' of 'cv2.CascadeClassifier' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       64    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       16    0.009    0.001    0.009    0.001 {method 'getvalue' of '_io.BytesIO' objects}
+       16    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       64    0.000    0.000    0.000    0.000 {method 'release' of 'thread.lock' objects}
+       16    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+       15    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BytesIO' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'unicode' objects}
+       32    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+      117    0.000    0.000    0.000    0.000 {min}
+       16    0.001    0.000    0.001    0.000 {numpy.core.multiarray.frombuffer}
+       15    0.000    0.000    0.000    0.000 {ord}
+       16    0.000    0.000    0.000    0.000 {range}
+       18    0.000    0.000    0.000    0.000 {thread.allocate_lock}
+      117    2.054    0.018    2.054    0.018 {time.sleep}
+      133    0.000    0.000    0.000    0.000 {time.time}
+       15    0.085    0.006    0.085    0.006 {waitKey}
+
+
